@@ -2,7 +2,7 @@
 
 Click this button to run this repository interactively:
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ctb/topmed_workshop_2018/pipeline?urlpath=rstudio)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ctb/binder-uw-topmed/pipeline?urlpath=rstudio)
 
 ## Provenance
 
