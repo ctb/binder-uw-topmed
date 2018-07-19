@@ -1,4 +1,4 @@
-install.packages(c("rmarkdown", "caTools"), repos=NULL)
+install.packages(c("rmarkdown", "caTools", "tidyverse"), repos=NULL)
 
 # script to install R packages needed for pipeline
 # must be run from analysis_pipeline directory
