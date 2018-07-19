@@ -17,3 +17,8 @@ install.packages("https://github.com/smgogarten/SeqVarTools/archive/v1.19.2.tar.
 install.packages("https://github.com/smgogarten/GENESIS/archive/v2.11.5.tar.gz", repos=NULL)
 
 #install.packages("TopmedPipeline", repos=NULL, type="source")
+download.file('https://github.com/UW-GAC/analysis_pipeline/archive/master.zip',
+               destfile='analysis_pipeline-master.zip')
+unzip('analysis_pipeline-master.zip')
+install.packages('analysis_pipeline-master/TopmedPipeline', type="source",
+                                                            repos=NULL)
