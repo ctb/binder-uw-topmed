@@ -1,3 +1,5 @@
+install.packages("rmarkdown")
+
 # script to install R packages needed for pipeline
 # must be run from analysis_pipeline directory
 # argument to script is path to R library for install
