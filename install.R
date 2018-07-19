@@ -1,5 +1,3 @@
-install.packages(c("rmarkdown", "caTools", "tidyverse"), repos=NULL)
-
 # script to install R packages needed for pipeline
 # must be run from analysis_pipeline directory
 # argument to script is path to R library for install
@@ -24,3 +22,5 @@ download.file('https://github.com/UW-GAC/analysis_pipeline/archive/master.zip',
 unzip('analysis_pipeline-master.zip')
 install.packages('analysis_pipeline-master/TopmedPipeline', type="source",
                                                             repos=NULL)
+
+install.packages(c("rmarkdown", "caTools", "tidyverse"), repos=NULL)
