@@ -23,4 +23,6 @@ unzip('analysis_pipeline-master.zip')
 install.packages('analysis_pipeline-master/TopmedPipeline', type="source",
                                                             repos=NULL)
 
-install.packages(c("rmarkdown", "caTools", "tidyverse"), repos=NULL)
+install.packages("rmarkdown")
+install.packages("caTools")
+install.packages("tidyverse")
