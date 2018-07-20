@@ -26,3 +26,6 @@ install.packages('analysis_pipeline-master/TopmedPipeline', type="source",
 install.packages("rmarkdown")
 install.packages("caTools")
 install.packages("tidyverse")
+
+library(devtools)
+install_github('UW-GAC/wgsaparsr')
